@@ -12,7 +12,7 @@ TARGET_SCREEN_WIDTH := 1440
 # vendor/lineage/config/common.mk
 
 ### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineagepixelos/config/common_full_phone.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
